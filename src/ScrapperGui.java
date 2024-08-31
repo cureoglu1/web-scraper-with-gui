@@ -46,7 +46,7 @@ public class ScrapperGui extends JFrame {
 	 */
 	public ScrapperGui() {
 		 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	        setBounds(100, 100, 806, 613);
+	        setBounds(100, 100, 806, 658);
 	        contentPane = new JPanel();
 	        contentPane.setBackground(new Color(238, 243, 12));
 	        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -74,7 +74,7 @@ public class ScrapperGui extends JFrame {
 
 	        JTextArea resultArea = new JTextArea();
 	        resultArea.setText("The results will be here soon");
-	        resultArea.setBounds(40, 206, 719, 342);
+	        resultArea.setBounds(40, 206, 719, 386);
 	        contentPane.add(resultArea);
 	        resultArea.setEditable(false);
 
